@@ -1,6 +1,6 @@
 # Set up Windows with Chocolatey
 
-> Use Chocolatey, the Windows package manager to download, install, update, and manage Windows software tools.
+> Use Chocolatey, the Windows package manager to download, install, update, and manage software on Windows.
 
 - [Webpage](https://denisecase.github.io/get-setup-with-chocolatey/)
 - [Source](https://github.com/denisecase/get-setup-with-chocolatey)
