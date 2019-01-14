@@ -69,7 +69,7 @@ The default location is generally something like 'C:\ProgramData\chocolatey' or 
 To upgrade your versions, periodically run choco upgrade.
 
 ```Powershell
-choco upgrade chocolatey
+choco upgrade chocolatey -y
 choco upgrade all
 ```
 
