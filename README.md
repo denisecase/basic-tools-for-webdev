@@ -43,7 +43,8 @@ All recommended tools are free.
 
 ## Install With Chocolatey
 
-Open a command window (or PowerShell) as administrator in your documents folder.
+Right-click in your Documents folder, and select 'Open PowerShell as Administrator'. 
+If you don't have this option, see [Windows Setup for Developers](https://github.com/denisecase/windows-setup).
 
 Using the -y flag is optional and will automatically answer 'yes' to install questions.
 
