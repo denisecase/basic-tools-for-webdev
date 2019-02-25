@@ -78,6 +78,13 @@ choco upgrade all
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
 
+## Issues with VS Code and TortoiseGit
+
+Important!
+
+- Make sure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
+- Make sure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
+
 ## Terms
 
 - Chocolatey
