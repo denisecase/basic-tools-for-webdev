@@ -128,10 +128,6 @@ Firefox Add-ons
 - Firefox Multi-Account Containers (limit access across apps)
 - uBlockOrigin (blocker) ensure name includes "Origin"
 - HTTPS Everywhere (requires encryption)
-- PrivacyBadger (prvents tracking)
-- Decentraleyes (prevents tracking)
-- Cookie Auto Delete (cleans up cookies)
-
 
 ## Terms
 
