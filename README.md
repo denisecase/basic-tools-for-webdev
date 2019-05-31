@@ -18,6 +18,7 @@ Windows Software automation tool
 
 Always check the script before running - verify the security and contents of any script before executing it.
 
+
 ## Common Tools for Web Development
 
 If any of these tools are not installed, choose from one of the installation options listed below.
@@ -47,6 +48,7 @@ Version Control
 - **TortoiseGit** (integrates with Windows File Manager)
 
 All recommended tools are free.
+
 
 ## Chocolatey Installation
 
@@ -85,9 +87,11 @@ choco install git -y
 choco install tortoisegit -y
 ```
 
+
 ### Browse Chocolatey Software Packages
 
 Explore at <https://chocolatey.org/packages>.
+
 
 ### Verify Installation
 
@@ -99,7 +103,8 @@ choco list -local
 
 1. Inspect the downloaded software - the default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
 
-1. Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables". 
+1. Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables".
+
 
 ### Upgrade All
 
@@ -110,9 +115,11 @@ choco upgrade chocolatey -y
 choco upgrade all
 ```
 
+
 ## Installing Without Chocolatey
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
+
 
 ## Issues with VS Code and TortoiseGit
 
@@ -121,6 +128,7 @@ Important!
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
+
 ## Recommended
 
 Firefox Add-ons
@@ -128,6 +136,7 @@ Firefox Add-ons
 - Firefox Multi-Account Containers (limit access across apps)
 - uBlockOrigin (blocker) ensure name includes "Origin"
 - HTTPS Everywhere (requires encryption)
+
 
 ## Terms
 
@@ -139,6 +148,7 @@ Firefox Add-ons
 - package manager
 - upgrade (get the latest version)
 - Windows (operating system)
+
 
 ## Next Steps
 
