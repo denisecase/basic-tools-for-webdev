@@ -10,6 +10,14 @@
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
 
+## Install First
+
+Windows Software automation tool
+
+- [Chocolatey](https://chocolatey.org/) - click "Install" to read and follow the instructions.
+
+Always check the script before running - verify the security and contents of any script before executing it.
+
 ## Common Tools for Web Development
 
 > Check your machine. If any of these tools are not installed, choose from one of the two installation options listed below.
@@ -44,9 +52,19 @@ If you don't have this option, see [Windows Setup for Developers](https://github
 
 Using the -y flag is optional and will automatically answer 'yes' to install questions.
 
-The following are suggested commands for installing new software - it's even safe to install software you already have (e.g., typically Chrome is already installed). You can find additional information by going to the specific link from <https://chocolatey.org/packages>.
+It's safe to install software you already have (e.g., typically Chrome is already installed). You can find additional information by going to the specific link from <https://chocolatey.org/packages>.
 
-```Powershell
+All at once:
+
+```PowerShell
+choco install googlechrome firefox notepadplusplus vscode git nodejs -y
+refreshevn
+choco install tortoisegit
+```
+
+Or one at a time:
+
+```PowerShell
 choco install googlechrome -y
 choco install firefox -y
 choco install notepadplusplus -y
@@ -56,13 +74,17 @@ choco install tortoisegit -y
 choco install nodejs -y
 ```
 
-### Browse Available Packages
+### Browse Chocolatey Software Packages
 
 Explore at <https://chocolatey.org/packages>.
 
 ### Verify Installation
 
 The default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
+
+Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". 
+
+From System Properties window Advanced tab, click "Environment Variables". 
 
 ### Upgrade All
 
@@ -86,11 +108,15 @@ Important!
 
 ## Terms
 
+- automation tools
+- web browser
 - Chocolatey
 - editor
+- environment variables
 - package manager
 - upgrade (get the latest version)
 - Windows (operating system)
+
 
 ## Next Steps
 
