@@ -80,11 +80,15 @@ Explore at <https://chocolatey.org/packages>.
 
 ### Verify Installation
 
-The default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
+View list of locally-installed programs. Open PowerShell here as Admin and run:
 
-Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". 
+```PowerShell
+choco list -local
+```
 
-From System Properties window Advanced tab, click "Environment Variables". 
+Inspect the downloaded software - the default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
+
+Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables". 
 
 ### Upgrade All
 
@@ -103,8 +107,8 @@ Alternatively, each tool can be installed in the traditional manner. Just go to 
 
 Important!
 
-- Make sure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
-- Make sure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
+- Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
+- Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
 ## Terms
 
