@@ -56,15 +56,15 @@ choco install tortoisegit -y
 choco install nodejs -y
 ```
 
-## Browse Available Packages
+### Browse Available Packages
 
 Explore at <https://chocolatey.org/packages>.
 
-## Verify Installation
+### Verify Installation
 
 The default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
 
-## Upgrade All
+### Upgrade All
 
 To upgrade your versions, periodically run choco upgrade.
 
