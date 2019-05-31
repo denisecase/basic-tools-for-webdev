@@ -1,29 +1,23 @@
-# Set up Windows with Chocolatey
+# Basic Tools for Web Development
 
-> Use Chocolatey, the Windows package manager to download, install, update, and manage software on Windows.
+> Download, install, update, and manage basic software tools on Windows.
 
-- [Webpage](https://denisecase.github.io/get-setup-with-chocolatey/)
-- [Source](https://github.com/denisecase/get-setup-with-chocolatey)
+- [Webpage](https://denisecase.github.io/basic-tools-for-webdev/)
+- [Source](https://github.com/denisecase/basic-tools-for-webdev)
 
 ## Recommended Prerequisites
 
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
 
-## Install Chocolatey
-
-Install Chocolatey, Windows Package Manager from <https://chocolatey.org/>.
-
-## Browse Available Packages
-
-Explore at <https://chocolatey.org/packages>.
-
 ## Common Tools for Web Development
+
+> Check your machine. If any of these tools are not installed, choose from one of the two installation options listed below.
 
 Web browsers
 
-- Google Chrome
 - Mozilla Firefox
+- Google Chrome
 
 Editors
 
@@ -33,7 +27,7 @@ Editors
 Version Control
 
 - Git for Windows (comes with Git Bash)
-- TortoiseGit
+- TortoiseGit (integrates with Windows File Manager)
 
 JavaScript without a Browser
 
@@ -41,14 +35,16 @@ JavaScript without a Browser
 
 All recommended tools are free.
 
-## Install With Chocolatey
+## Chocolatey Installation
+
+Use powerful automation tools to make installing software easier. Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/>.
 
 Right-click in your Documents folder, and select 'Open PowerShell as Administrator'. 
 If you don't have this option, see [Windows Setup for Developers](https://github.com/denisecase/windows-setup).
 
 Using the -y flag is optional and will automatically answer 'yes' to install questions.
 
-The following are suggested commands for installing new software - there is no need to install software you already have (e.g., typically Chrome is already installed). You can find additional information by going to the specific link from <https://chocolatey.org/packages>.
+The following are suggested commands for installing new software - it's even safe to install software you already have (e.g., typically Chrome is already installed). You can find additional information by going to the specific link from <https://chocolatey.org/packages>.
 
 ```Powershell
 choco install googlechrome -y
@@ -60,10 +56,13 @@ choco install tortoisegit -y
 choco install nodejs -y
 ```
 
+## Browse Available Packages
+
+Explore at <https://chocolatey.org/packages>.
+
 ## Verify Installation
 
-Programs may be installed in different locations on your machine. 
-The default location is generally something like 'C:\ProgramData\chocolatey' or for earlier installations, 'c:\chocolatey'.
+The default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
 
 ## Upgrade All
 
