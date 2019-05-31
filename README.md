@@ -132,10 +132,6 @@ Firefox Add-ons
 - Decentraleyes (prevents tracking)
 - Cookie Auto Delete (cleans up cookies)
 
-```PowerShell
-choco install ublockorigin-firefox -y
-choco install https-everywhere-firefox -y
-```
 
 ## Terms
 
