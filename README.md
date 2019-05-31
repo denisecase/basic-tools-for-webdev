@@ -20,26 +20,31 @@ Always check the script before running - verify the security and contents of any
 
 ## Common Tools for Web Development
 
-> Check your machine. If any of these tools are not installed, choose from one of the two installation options listed below.
+If any of these tools are not installed, choose from one of the installation options listed below.
 
 Web browsers
 
-- Mozilla Firefox
-- Google Chrome
+- **Mozilla Firefox**
+- **Google Chrome**
 
 Editors
 
-- Notepad++
-- Visual Studio Code (VS Code)
-
-Version Control
-
-- Git for Windows (comes with Git Bash)
-- TortoiseGit (integrates with Windows File Manager)
+- **Notepad++**
+- **Visual Studio Code (VS Code)**
 
 JavaScript without a Browser
 
-- Node.js (includes npm, the Node package manager)
+- **Node.js** (includes **npm**, the Node package manager)
+
+Web Utilities
+
+- **cURL** - data transfer utility
+- **Wget** - file retrieval utility (request HTTP, HTTPS, and FTP from scripts
+
+Version Control
+
+- **Git for Windows (comes with Git Bash)**
+- **TortoiseGit** (integrates with Windows File Manager)
 
 All recommended tools are free.
 
@@ -57,9 +62,13 @@ It's safe to install software you already have (e.g., typically Chrome is alread
 All at once:
 
 ```PowerShell
-choco install googlechrome firefox notepadplusplus vscode git nodejs -y
-refreshevn
-choco install tortoisegit
+choco install googlechrome firefox notepadplusplus (add all packages as desired) -y
+```
+
+Refresh environment variables if they have been modified.
+
+```PowerShell
+refreshenv
 ```
 
 Or one at a time:
@@ -69,9 +78,11 @@ choco install googlechrome -y
 choco install firefox -y
 choco install notepadplusplus -y
 choco install vscode -y
+choco install nodejs -y
+choco install curl -y
+choco install wget -y
 choco install git -y
 choco install tortoisegit -y
-choco install nodejs -y
 ```
 
 ### Browse Chocolatey Software Packages
@@ -80,15 +91,15 @@ Explore at <https://chocolatey.org/packages>.
 
 ### Verify Installation
 
-View list of locally-installed programs. Open PowerShell here as Admin and run:
+1. View list of locally-installed programs. Open PowerShell here as Admin and run:
 
 ```PowerShell
 choco list -local
 ```
 
-Inspect the downloaded software - the default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
+1. Inspect the downloaded software - the default location is 'C:\ProgramData\chocolatey' (or for earlier installations, 'c:\chocolatey').
 
-Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables". 
+1. Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables". 
 
 ### Upgrade All
 
@@ -110,6 +121,22 @@ Important!
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
+## Recommended
+
+Firefox Add-ons
+
+- Firefox Multi-Account Containers (limit access across apps)
+- uBlockOrigin (blocker) ensure name includes "Origin"
+- HTTPS Everywhere (requires encryption)
+- PrivacyBadger (prvents tracking)
+- Decentraleyes (prevents tracking)
+- Cookie Auto Delete (cleans up cookies)
+
+```PowerShell
+choco install ublockorigin-firefox -y
+choco install https-everywhere-firefox -y
+```
+
 ## Terms
 
 - automation tools
@@ -120,7 +147,6 @@ Important!
 - package manager
 - upgrade (get the latest version)
 - Windows (operating system)
-
 
 ## Next Steps
 
