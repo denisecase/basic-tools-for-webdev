@@ -25,7 +25,7 @@ If any of these tools are not installed, choose from one of the installation opt
 
 Web browsers
 
-- **Mozilla Firefox**
+- **Mozilla Firefox** (Developer Edition)
 - **Google Chrome**
 
 Editors
@@ -64,7 +64,7 @@ It's safe to install software you already have (e.g., typically Chrome is alread
 All at once:
 
 ```PowerShell
-choco install googlechrome firefox notepadplusplus (add all packages as desired) -y
+choco install googlechrome notepadplusplus (add all packages as desired) -y
 ```
 
 Refresh environment variables if they have been modified.
@@ -77,7 +77,7 @@ Or one at a time:
 
 ```PowerShell
 choco install googlechrome -y
-choco install firefox -y
+choco install firefox-dev --pre -y
 choco install notepadplusplus -y
 choco install vscode -y
 choco install nodejs -y
