@@ -41,11 +41,16 @@ Web Utilities
 
 - **cURL** - data transfer utility
 - **Wget** - file retrieval utility (request HTTP, HTTPS, and FTP from scripts
+- **Postman** - Web API Development Environment
 
 Version Control
 
 - **Git for Windows (comes with Git Bash)**
 - **TortoiseGit** (integrates with Windows File Manager)
+
+Utilities
+
+- **Putty** - terminal emulator and PuttyGen for generating SSH public-private key pairs for Git repos
 
 All recommended tools are free.
 
@@ -86,6 +91,7 @@ choco install wget -y
 choco install git -y
 choco install tortoisegit -y
 choco install putty -y
+choco install postman -y
 ```
 
 ### Browse Chocolatey Software Packages
