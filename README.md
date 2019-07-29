@@ -85,8 +85,8 @@ choco install curl -y
 choco install wget -y
 choco install git -y
 choco install tortoisegit -y
+choco install putty -y
 ```
-
 
 ### Browse Chocolatey Software Packages
 
