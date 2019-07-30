@@ -143,6 +143,14 @@ Firefox Add-ons
 - uBlockOrigin (blocker) ensure name includes "Origin"
 - HTTPS Everywhere (requires encryption)
 
+Ruby + Dev kit (for Jekyll, etc.)
+
+```Powershell
+choco install ruby -y
+refreshenv
+choco install ruby2.devkit -y
+refreshenv
+```
 
 ## Terms
 
