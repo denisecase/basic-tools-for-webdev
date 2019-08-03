@@ -21,7 +21,8 @@ Always check the script before running - verify the security and contents of any
 
 ## Common Tools for Web Development
 
-If any of these tools are not installed, choose from one of the installation options listed below.
+If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
+Chocolatey makes it easy to keep your software up-to-date. 
 
 Web browsers
 
@@ -98,7 +99,6 @@ choco install postman -y
 
 Explore at <https://chocolatey.org/packages>.
 
-
 ### Verify Installation
 
 1. View list of locally-installed programs. Open PowerShell here as Admin and run:
@@ -111,21 +111,19 @@ choco list -local
 
 1. Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables".
 
-
 ### Upgrade All
 
-To upgrade your versions, periodically run choco upgrade.
+To upgrade your versions, periodically run choco upgrade. You can [automate this script](https://github.com/denisecase/windows-daily-software-upgrade) to make it even easier. 
 
 ```Powershell
 choco upgrade chocolatey -y
-choco upgrade all
+choco upgrade all -y
+refreshenv
 ```
-
 
 ## Installing Without Chocolatey
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
-
 
 ## Issues with VS Code and TortoiseGit
 
@@ -133,7 +131,6 @@ Important!
 
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
-
 
 ## Recommended
 
@@ -162,7 +159,6 @@ refreshenv
 - package manager
 - upgrade (get the latest version)
 - Windows (operating system)
-
 
 ## Next Steps
 
