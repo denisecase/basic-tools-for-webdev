@@ -18,7 +18,6 @@ Windows Software automation tool
 
 Always check the script before running - verify the security and contents of any script before executing it.
 
-
 ## Common Tools for Web Development
 
 If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
@@ -26,32 +25,32 @@ Chocolatey makes it easy to keep your software up-to-date.
 
 Web browsers
 
-- **Mozilla Firefox** (Developer Edition)
-- **Google Chrome**
+- Mozilla Firefox (Developer Edition)
+- Google Chrome
 
 Editors
 
-- **Notepad++**
-- **Visual Studio Code (VS Code)**
+- Notepad++
+- Visual Studio Code (VS Code)
 
 JavaScript without a Browser
 
-- **Node.js** (includes **npm**, the Node package manager)
+- Node.js** (includes npm, the Node package manager)
 
 Web Utilities
 
-- **cURL** - data transfer utility
-- **Wget** - file retrieval utility (request HTTP, HTTPS, and FTP from scripts
-- **Postman** - Web API Development Environment
+- cURL - data transfer utility
+- Wget - file retrieval utility (request HTTP, HTTPS, and FTP from scripts
+- Postman - Web API Development Environment
 
 Version Control
 
-- **Git for Windows (comes with Git Bash)**
-- **TortoiseGit** (integrates with Windows File Manager)
+- Git for Windows (comes with Git Bash, a little bit of Linux on Windows :) )
+- TortoiseGit (integrates with Windows File Manager)
 
 Utilities
 
-- **Putty** - terminal emulator and PuttyGen for generating SSH public-private key pairs for Git repos
+- Putty - terminal emulator, includes PuttyGen for generating SSH public-private key pairs for Git repos
 
 All recommended tools are free.
 
@@ -147,6 +146,12 @@ choco install ruby -y
 refreshenv
 choco install ruby2.devkit -y
 refreshenv
+```
+
+Ananconda3 (for Python)
+
+```Powershell
+choco install anaconda3 -y
 ```
 
 ## Terms
