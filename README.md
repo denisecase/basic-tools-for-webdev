@@ -35,7 +35,7 @@ Editors
 
 JavaScript without a Browser
 
-- Node.js** (includes npm, the Node package manager)
+- Node.js (includes npm, the Node package manager)
 
 Web Utilities
 
