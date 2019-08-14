@@ -154,6 +154,15 @@ Ananconda3 (for Python)
 choco install anaconda3 -y
 ```
 
+Professional Java Development
+
+```PowerShell
+choco install jdk8 -y
+choco install eclipse -y
+choco install gradle -y
+choco install maven -y
+```
+
 ## Terms
 
 - automation tools
