@@ -50,7 +50,7 @@ Version Control
 
 Utilities
 
-- Putty - terminal emulator, includes PuttyGen for generating SSH public-private key pairs for Git repos
+- PuTTY - terminal emulator, includes PuTTYGen for generating SSH public-private key pairs used with Git repos
 
 All recommended tools are free.
 
