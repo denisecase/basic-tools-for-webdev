@@ -180,3 +180,7 @@ Configure Git distributed version control system and automate software upgrades
 
 - See [Git Started With Windows](https://github.com/denisecase/git-started-windows)
 - [Automate daily choco upgrades](https://github.com/denisecase/windows-daily-software-upgrade)
+
+## See Also
+
+- [Setting Up for Professional Software Development](https://github.com/denisecase/pro-dev-list)
