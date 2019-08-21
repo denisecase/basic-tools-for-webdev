@@ -31,7 +31,7 @@ Web browsers
 Editors
 
 - Notepad++
-- Visual Studio Code (VS Code)
+- Visual Studio Code (VS Code) - FIRST TIME DO THIS THE TYPICAL WAY
 
 JavaScript without a Browser
 
@@ -45,8 +45,8 @@ Web Utilities
 
 Version Control
 
-- Git for Windows (comes with Git Bash, a little bit of Linux on Windows :) )
-- TortoiseGit (integrates with Windows File Manager)
+- Git for Windows (comes with Git Bash, a little bit of Linux on Windows :) ) - FIRST TIME DO THIS THE TYPICAL WAY
+- TortoiseGit (integrates with Windows File Manager) -- FIRST TIME DO THIS THE TYPICAL WAY
 
 Utilities
 
