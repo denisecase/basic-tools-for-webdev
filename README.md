@@ -82,7 +82,6 @@ Or one at a time:
 
 ```PowerShell
 choco install googlechrome -y
-choco install firefox-dev --pre -y
 choco install notepadplusplus -y
 choco install vscode -y
 choco install nodejs -y
