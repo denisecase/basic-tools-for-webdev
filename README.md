@@ -25,8 +25,8 @@ Chocolatey makes it easy to keep your software up-to-date.
 
 Web browsers
 
-- Mozilla Firefox (Developer Edition)
 - Google Chrome
+- Mozilla Firefox
 
 Editors
 
