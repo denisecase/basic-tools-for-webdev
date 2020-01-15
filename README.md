@@ -10,15 +10,11 @@
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
 
-## Install First
+## Read about Windows Software Automation
 
-Windows Software automation tool
+Installing software on Windows can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. 
 
-- [Chocolatey](https://chocolatey.org/) - click "Install" to read and follow the instructions.
-
-Always check the script before running - verify the security and contents of any script before executing it.
-
-## Common Tools for Web Development
+## Read about Common Tools for Web Development
 
 If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
 Chocolatey makes it easy to keep your software up-to-date. 
@@ -55,9 +51,11 @@ Utilities
 All recommended tools are free.
 
 
-## Chocolatey Installation
+## Install Chocolatey
 
-Use powerful automation tools to make installing software easier. Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/>.
+Use powerful automation tools to make installing software easier. Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/> by following the directions on the website.
+
+## Install Software with Chocolatey
 
 Right-click in your Documents folder, and select 'Open PowerShell as Administrator'. 
 If you don't have this option, see [Windows Setup for Developers](https://github.com/denisecase/windows-setup).
@@ -93,11 +91,11 @@ choco install putty -y
 choco install postman -y
 ```
 
-### Browse Chocolatey Software Packages
+### Optional: Browse Chocolatey Software Packages
 
 Explore at <https://chocolatey.org/packages>.
 
-### Verify Installation
+### Optional: Verify Installation
 
 1. View list of locally-installed programs. Open PowerShell here as Admin and run:
 
@@ -109,7 +107,7 @@ choco list -local
 
 1. Inspect your updated Windows environment variables. Hit Win key and type env. Select "Edit System Environment Variables". From System Properties window Advanced tab, click "Environment Variables".
 
-### Upgrade All
+### Periodically: Upgrade All
 
 To upgrade your versions, periodically run choco upgrade. You can [automate this script](https://github.com/denisecase/windows-daily-software-upgrade) to make it even easier. 
 
@@ -123,14 +121,14 @@ refreshenv
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
 
-## Issues with VS Code and TortoiseGit
+## Installation Issues with VS Code and TortoiseGit
 
 Important!
 
 - Ensure VS Code installs right-click 'Open with Code' on folder context menus. If not, reinstall using traditional methods.
 - Ensure full TortoiseGit context menus are available. If not, reinstall using traditional methods. 
 
-## Recommended
+## Optional
 
 Firefox Add-ons
 
