@@ -1,4 +1,4 @@
-# Basic Tools for Web Development
+# Basic Tools for Development
 
 > Download, install, update, and manage basic software tools on Windows.
 
@@ -14,7 +14,7 @@
 
 Installing software on Windows can be done by typing simple commands with [Chocolatey](https://chocolatey.org/), a software automation tool for Windows. 
 
-## Read about Common Tools for Web Development
+## Read about Common Tools for Development
 
 If you don't have these tools installed (or even if you do), we recommend using Chocolately to install them. 
 Chocolatey makes it easy to keep your software up-to-date. 
@@ -28,6 +28,10 @@ Editors
 
 - Notepad++
 - Visual Studio Code (VS Code) - FIRST TIME DO THIS THE TYPICAL WAY
+
+Working with Large Compressed Files
+
+- 7zip
 
 JavaScript without a Browser
 
@@ -82,6 +86,7 @@ Or one at a time:
 choco install googlechrome -y
 choco install notepadplusplus -y
 choco install vscode -y
+choco install 7zip -y
 choco install nodejs -y
 choco install curl -y
 choco install wget -y
